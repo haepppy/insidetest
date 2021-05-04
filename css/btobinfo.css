@@ -1,0 +1,23 @@
+.btobInfo {
+    width: 786px; height: auto;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.btobInfo img {
+    display: block;
+    width: 786px;
+}
+.btobInfo div {
+    width: 786px; height: auto;
+}
+.btobInfo p {
+    font-size: 20px;
+    text-align: center;
+    font-family: "GyeonggiBatang";
+    line-height: 30px;
+}
+.btobInfo .title {
+    font-family: "KoreanTIMSR";
+    color: #063b49;
+    font-size: 25px;
+}

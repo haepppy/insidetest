@@ -1,0 +1,165 @@
+/* reset */
+* {
+    margin: 0; padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none; color: #333;
+}
+
+/* layout */
+#wrap {
+    width: 1200px; height: auto;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+/* header */
+#header {
+    width: 1200px; height: 100px;
+    display: block;
+}
+#header .logo {
+    display: block;
+    width: 174px; height: 40px;
+    float: left;
+    position: relative;
+    top: 30px;
+}
+#header .subLogo {
+    display: block;
+    width: 174px; height: 40px;
+    float: left;
+    position: relative;
+    top: 30px;
+}
+.nav {
+    width: 816px; height: 40px;
+    float: left;
+    z-index: 500;
+    position: relative;
+    top: 30px;
+    padding: 0 15px;
+}
+.nav > ul > li {
+    float: left;
+    display: block;
+    width: 174px; height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    position: relative;
+    margin: 0 15px;
+    font-family: "GyeonggiBatang";
+}
+.nav > ul > li:hover {
+    background-color: #ceb686;
+}
+.nav .subMenu {
+    position: relative;
+    display: none;
+    font-family: "GyeonggiBatang";
+}
+.nav .subMenu li {
+    display: block;
+    width: 174px; height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 15px;
+    background: rgba(255,255,255,0.7);
+}
+.nav .subMenu li:hover {
+    background-color: #063b49;
+
+}
+.nav .subMenu li:hover a {
+    color: #fff;
+}
+
+.main {
+    width: 1200px; height: 449px;
+    position: relative;
+}
+.main > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.concert {
+    padding: 15px 0 15px 0;
+}
+
+.memberList {
+    width: 1200px; height: 276px;
+    position: relative;
+}
+.memberList .memberImg {
+    display: block;
+    float: left;
+    margin-right: 32px;
+    display: block;
+    position: relative;
+}
+.memberList .memberImg.last {
+    margin: 0;
+}
+.memberList .hoverImg {
+    display: none;
+    position: absolute;
+    top: 0; left: 0;
+}
+
+#footer {
+    width: 1200px; height: 100px;
+}
+#footer h1 {
+    display: block;
+    width: 174px; height: 100px;
+    float: left;
+    text-align: center;
+    line-height: 100px;
+}
+
+.subNav {
+    width: 1024px; height: 50px;
+    display: block;
+    float: left;
+    position: relative;
+}
+.subNav ul {
+    position: absolute;
+    top: 17px;
+    left: 358.5px;
+}
+.subNav li {
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+    font-size: 12px;
+}
+.subNav li.lastLi {
+    margin: 0;
+}
+.subNav li:after {
+    content: '|';
+    padding-left: 10px;
+}
+.subNav li.lastLi:after {
+    content:'';
+    padding: 0;
+}
+
+#footer p {
+    width: 1024px; height: 50px;
+    display: block;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    font-size: 12px;
+}
+

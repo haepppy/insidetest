@@ -1,0 +1,48 @@
+.mainInfo {
+    width: 990px; height: auto;
+    margin: 30px auto;
+    background-color: antiquewhite;
+}
+.mainInfo img {
+    display: block;
+    float: left;
+}
+.info {
+    width: 582px; height: 525px;
+    float: right;
+    background-color: #fff;
+}
+.mainInfo h2 {
+    font-size: 30px;
+    position: relative;
+    color: #063b49;
+    font-family: "KoreanTIMSR";
+    padding-left: 5px;
+}
+.mainInfo h3 {
+    position: relative;
+    color: #ceb686;
+    font-family: "GyeonggiBatang";
+    margin: 5px 0;
+    width: 582px;
+    padding-left: 5px;
+}
+.mainInfo h3 .icon {
+    display: block;
+    float: right;
+}
+.mainInfo h3 .icon img {
+    display: block;
+    margin-right: 5px;
+}
+.mainInfo .infoCont {
+    width: 582px; height: 460.6px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.mainInfo p {
+    font-family: "GyeonggiBatang";
+    font-size: 18px;
+    line-height: 26px;
+}

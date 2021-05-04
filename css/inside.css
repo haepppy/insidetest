@@ -1,0 +1,86 @@
+.insideInfo {
+    width: 990px; height: auto;
+    margin: 20px auto;
+}
+.insideInfo img {
+    display: block;
+    margin: 10px auto;
+}
+.insideInfo > div {
+    padding: 20px;
+}
+.insideInfo p.in_title {
+    text-align: center;
+    font-size: 22px;
+    font-family: "KoreanTIMSR";
+    color: #063b49;
+}
+.insideInfo p {
+    font-size: 18px;
+    text-align: center;
+    font-family: "GyeonggiBatang";
+    line-height: 30px;
+}
+
+.line {
+    width: 990px;
+    margin: 10px auto;
+    border-bottom: 1px solid #ceb686;
+}
+.line > p {
+    font-size: 14px;
+    text-align: right;
+    font-family: "GyeonggiBatang";
+    line-height: 20px;
+    padding-right: 10px;
+    color: #063b49;
+}
+
+
+.albuminfo {
+    width: 990px; height: auto;
+    margin: 20px auto;
+}
+.albuminfo .play_h {
+    display: none;
+    width: 276px; height: 276px;
+    position: absolute;
+    top: 151px; left: 265px;
+}
+.albuminfo img {
+    display: block;
+    float: left;
+    width: 276px; height: 276px;
+}
+.albuminfo .albumTitle {
+    width: 684px; height: 276px;
+    float: right;
+    position: relative;
+}
+.albuminfo .albumTitle > p {
+    font-family: "GyeonggiBatang";
+    font-size: 18px;
+    line-height: 26px;
+    color: #ceb686;
+}
+.albuminfo .albumTitle p.aTitle {
+    font-size: 22px;
+    font-family: "KoreanTIMSR";
+    color: #063b49;
+    margin-bottom: 10px;
+}
+.albumTitle .comment {
+    font-weight: 600;
+    color: #333;
+}
+
+.lyrics {
+    width: 990px; height: auto;
+    padding-top: 30px;
+    column-width: 480px;
+}
+.lyrics pre {
+    font-family: "GyeonggiBatang";
+    font-size: 15px;
+    line-height: 25px;
+}
